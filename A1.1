@@ -1,0 +1,21 @@
+int IN1 = 5;
+int IN2 = 4;
+int ENA = 3;
+
+void setup() {
+  pinMode(IN1, OUTPUT);
+  pinMode(IN2, OUTPUT);
+  pinMode(ENA, OUTPUT);
+
+  digitalWrite(IN1, HIGH);   // Motor avanza
+  digitalWrite(IN2, LOW);
+  analogWrite(ENA, 160);
+
+  delay(12000); // 3 vueltas de 4 segundos = 12 segundos
+
+  digitalWrite(IN1, LOW);    // Detiene el motor
+  digitalWrite(IN2, LOW);
+}
+
+void loop() {
+}
