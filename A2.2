@@ -1,0 +1,96 @@
+#include <Wire.h>
+#include "Adafruit_TCS34725.h"
+
+// Sensor de color
+Adafruit_TCS34725 tcs = Adafruit_TCS34725();
+
+// Motores L298N
+int IN1 = 5;
+int IN2 = 4;
+int ENA = 3;
+
+// Sensor ultrasónico HC-SR04
+int trigPin = 9;
+int echoPin = 8;
+
+long duration;
+int distance;
+
+void setup() {
+  Serial.begin(9600);
+
+  // Sensor de color
+  if (!tcs.begin()) {
+    Serial.println("No se encontró el sensor de color.");
+    while (1);
+  }
+
+  // Motores
+  pinMode(IN1, OUTPUT);
+  pinMode(IN2, OUTPUT);
+  pinMode(ENA, OUTPUT);
+
+  // Sensor ultrasónico
+  pinMode(trigPin, OUTPUT);
+  pinMode(echoPin, INPUT);
+}
+
+void loop() {
+  // Medir distancia ultrasónica
+  digitalWrite(trigPin, LOW);
+  delayMicroseconds(2);
+  digitalWrite(trigPin, HIGH);
+  delayMicroseconds(10);
+  digitalWrite(trigPin, LOW);
+
+  duration = pulseIn(echoPin, HIGH);
+  distance = duration * 0.034 / 2;
+
+  // Leer color
+  uint16_t r, g, b, c;
+  tcs.getRawData(&r, &g, &b, &c);
+
+  // Si detecta rojo fuerte
+  if (r > g + 50 && r > b + 50) {
+    detener();
+    Serial.println("Color rojo detectado. Detenido.");
+    while (1); // Se detiene completamente
+  }
+
+  // Si hay obstáculo cercano
+  if (distance < 20) {
+    detener();
+    delay(500);
+    retroceder();
+    delay(800);
+    girar();
+    delay(700);
+  }
+
+  // Avanzar normalmente
+  avanzar();
+}
+
+// Funciones de movimiento
+void avanzar() {
+  digitalWrite(IN1, HIGH);
+  digitalWrite(IN2, LOW);
+  analogWrite(ENA, 160);
+}
+
+void retroceder() {
+  digitalWrite(IN1, LOW);
+  digitalWrite(IN2, HIGH);
+  analogWrite(ENA, 160);
+}
+
+void detener() {
+  digitalWrite(IN1, LOW);
+  digitalWrite(IN2, LOW);
+}
+
+void girar() {
+  digitalWrite(IN1, HIGH);
+  digitalWrite(IN2, LOW);
+  analogWrite(ENA, 160);
+}
