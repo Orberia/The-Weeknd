@@ -76,3 +76,28 @@ This moment taught us that even a small detail can stop the entire system, and t
 Throughout the project, we acquired multiple lessons, both technical and personal. Among them:
 
 We learned to program sensors and motors from scratch.
+
+We developed logical thinking and problem-solving skills.
+
+We improved our ability to document each step of the process.
+
+We discovered the importance of collaborative work and good team communication.
+
+We understood that mistakes are part of the process and that we learn a lot from them.
+
+6. Final Conclusion
+
+In summary, the robot nicknamed "Abel" from our "The Weeknd" team stands out not only for its movement and maneuverability, but also for its obstacle detection and avoidance system. We are very confident that these features will help our robot perform well in regional robotics competitions.
+
+7. Credits:
+
+Orbey Galeano – 11F
+Bachelor of Science
+
+Andrea Bernal – 12F
+Bachelor of Science
+
+Ariathna Robles – 11F
+Bachelor of Science
+
+Thank you very much.
