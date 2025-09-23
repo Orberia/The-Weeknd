@@ -50,7 +50,9 @@ Gestión de la potencia y los sentidos: Tenemos 2 baterías (una recargable y ot
 Gestión de obstáculos: Como ya he mencionado varias veces el robot tiene dos sensores al frente, uno ultrasonico y una cámara que hace la función de sensor de color ambos trabajan juntos para ejecutar el reto, cuando inicia el robot va recto hasta detectar la pared, retrocede para tomar la curva lo mejor posible ya que un desvío podría afectar bastante en la detección de obstáculos y por eso se quiere hacer los más preciso posible para que no haiga ningún desvío qué afecte en el recorrido de robot, ahora que el robot está bien posicionado a la hora de detectar los obstáculos esquivara el obstáculo al lado que le corresponde haciendo esto las tres vueltas del reto. 
 
 Videos de rendimiento:
+
 https://youtu.be/CwRXzK3C9YQ?si=sShcY7c2oma6UHBi
+
 https://youtube.com/shorts/s7kXJFCqDvQ?si=E_z_9bgtrkW0EDXt
 
  Utilización de GitHub: Este repositorio esta ordenado en carpetas para hacer la calificación más fácil y rápida con una carpeta para todas la imagenes desde la regionales y otro para los códigos y sus correcciones y cambios a día de hoy. 
