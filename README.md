@@ -57,7 +57,7 @@ https://youtube.com/shorts/s7kXJFCqDvQ?si=E_z_9bgtrkW0EDXt
 
  Utilización de GitHub: Este repositorio esta ordenado en carpetas para hacer la calificación más fácil y rápida con una carpeta para todas la imagenes desde la regionales y otro para los códigos y sus correcciones y cambios a día de hoy. 
 
-Cambios: como ya debe de hacer notado en la carpeta de imagenes si lo podremos llamar así hay otra que se llama "Regionales" Donde esta el prototipo del robot con que participamos en las dos regiones que mencione en la introducción. 
+Cambios y Mejoras: como ya debe de hacer notado en la carpeta de imagenes si lo podremos llamar así hay otra que se llama "Regionales" Donde esta el prototipo del robot con que participamos en las dos regiones que mencione en la introducción. 
 
 (El archivo read.me donde explica como funcionaba ese prototipo esta en la carpeta de programas, solo que esta en inglés) 
 
