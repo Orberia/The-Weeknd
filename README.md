@@ -1,4 +1,4 @@
-Robot autónomo (Weeknd) 
+Robot autónomo Weeknd (Idioma original)
 
 Introducción
  
@@ -68,3 +68,47 @@ Explico en este punto lo mejor posible siendo breve para ser lo más transparent
 Conclusión
 
 Weeknd no es solo un robot diseñado para completar un circuito; es una demostración de todo lo aprendido es este proceso de aprendizaje, programación y trabajo en equipo. Nuestra participación en esta competencia busca inspirar a estudiantes de colegios oficiales que tenga la oportunidad en su centro educativo de involucrarse en la robótica y desarrollar sus habilidades.
+
+
+
+
+
+Autonomous Robot Weeknd (Translated from Spanish)
+
+Introduction
+
+Weeknd is an autonomous robot created to compete in the WRO competitions organized by Fundesteam. This time we will compete in the WRO National Competition in the Future Engineers category after a long learning process at the USMA (Universidad Santa María la Antigua) regional competition on July 3 and at the TJS (Tomás Jefferson School of Panama) competition held on July 10. Speaking more about our robot, its design allows it to complete the circuit’s three laps intelligently, detecting colors, recognizing patterns, and dodging obstacles. This project not only aims to meet the competition’s challenges, but also motivates us—students from both public and private schools—in robotics and programming, engaging us in this type of competition.
+
+Components and Functions
+
+Brain / Controller → P-Bot: It is the central module that receives information from the sensors, processes data, and sends commands to the motor and the servo. Thanks to its processing power, it enables the robot to make autonomous decisions and react quickly to changes in the environment and variables. The board is a Senacyt beta project that aims to create a 100% Panamanian board with the goal of positioning Panama as a leader in robotics in the region.
+
+Camera → HuskyLens: An intelligent sensor that allows the robot to recognize colors and objects. In the competition, it is mainly used to identify the colors on the course and trigger programd responses based on each signal and variable.
+
+DC motor (RS-380 12V): Provides the main traction and forward motion. Its power and control allow it to maintain the appropriate speed to complete the circuit without losing stability or time.
+
+Servo MG996R: Controls the robot’s direction, enabling precise turns and trajectory changes according to the programming. This is absolutely crucial for dodging obstacles and staying on the correct path around the circuit without any issues.
+
+Rechargeable Battery: It is the power source that powers all components. Efficient power management ensures that the robot operates throughout its entire run without interruptions, flickering, or system restarts.
+
+Chassis / structure: Acrylic base that supports all components, ensuring stability and protection during movement. The chassis design takes into account the weight distribution and balance of the robot.
+
+Wheels: Two engine-driven wheels and two support wheels. Their arrangement provides stability and maneuverability, which are essential for navigating the circuit without falling, veering off course, or crashing.
+
+Wiring and connections: It enables electrical communication between all components, ensuring that the codes from the controller reach the actuators correctly.
+
+Características principales
+
+Color detection using the HuskyLens camera: It allows the robot to react to circuit signals according to the programming, changing its trajectory or executing specific actions.
+
+Obstacle avoidance and recognizing the random nature of the challenge: Thanks to the front-mounted distance sensor and intelligent programming, the robot can identify obstacles and calculate alternative routes to keep its path uninterrupted.
+
+Autonomous route: The robot completes most of the circuit without human intervention, demonstrating its ability to operate independently and autonomously.
+
+Functional and competitive design: It combines functionality, precision, and good programming, meeting the competition’s evaluation criteria and demonstrating the application of engineering principles learned in the robotics club.
+
+Areas (short description):
+
+Mobility management: The motor and servo work in coordination thanks to programming and the use of the distance sensor and front-facing camera, enabling the robot to move precisely while maintaining stability and an appropriate speed to overcome the circuit’s challenges as effectively as possible.
+
+Power and sensor management: We have two batteries (one rechargeable and the other using 3.7 V cells) connected together, since we made a connection that runs to a switch that controls whether power passes to the board (P-Bot). The distance sensor functions as the robot’s eyes: one eye emits an ultrasonic sound pulse that travels to the object, and the other eye detects the pulse, triggering a program. The camera has colors pre-recorded, ready to execute a specific program tailored to the challenge’s variables.
