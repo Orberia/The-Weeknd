@@ -84,6 +84,62 @@ Weeknd no es solo un robot diseñado para completar un circuito; es una demostra
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Autonomous Robot Weeknd (Translated from Spanish)
 
 Introduction
