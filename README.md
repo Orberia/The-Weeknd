@@ -73,6 +73,17 @@ Weeknd no es solo un robot diseñado para completar un circuito; es una demostra
 
 
 
+
+
+
+
+
+
+
+
+
+
+
 Autonomous Robot Weeknd (Translated from Spanish)
 
 Introduction
@@ -97,7 +108,7 @@ Wheels: Two engine-driven wheels and two support wheels. Their arrangement provi
 
 Wiring and connections: It enables electrical communication between all components, ensuring that the codes from the controller reach the actuators correctly.
 
-Características principales
+Main characteristics
 
 Color detection using the HuskyLens camera: It allows the robot to react to circuit signals according to the programming, changing its trajectory or executing specific actions.
 
@@ -112,3 +123,24 @@ Areas (short description):
 Mobility management: The motor and servo work in coordination thanks to programming and the use of the distance sensor and front-facing camera, enabling the robot to move precisely while maintaining stability and an appropriate speed to overcome the circuit’s challenges as effectively as possible.
 
 Power and sensor management: We have two batteries (one rechargeable and the other using 3.7 V cells) connected together, since we made a connection that runs to a switch that controls whether power passes to the board (P-Bot). The distance sensor functions as the robot’s eyes: one eye emits an ultrasonic sound pulse that travels to the object, and the other eye detects the pulse, triggering a program. The camera has colors pre-recorded, ready to execute a specific program tailored to the challenge’s variables.
+Obstacle management: As I’ve mentioned several times, the robot has two front-mounted sensors: an ultrasonic sensor and a camera that serves as a color sensor. Both work together to complete the challenge. When it starts, the robot moves straight ahead until it detects the wall, then backs up to take the curve as smoothly as possible, since any deviation could significantly affect obstacle detection. That’s why we’re aiming for maximum precision to prevent any drift that might throw off the robot’s course. Now that the robot is properly positioned, it will dodge obstacles on the appropriate side, repeating this for all three laps of the challenge.
+
+Performance videos:
+
+https://youtu.be/CwRXzK3C9YQ?si=sShcY7c2oma6UHBi
+
+https://youtube.com/shorts/s7kXJFCqDvQ?si=E_z_9bgtrkW0EDXt
+
+Using GitHub: This repository is organized into folders to make grading easier and faster, with one folder for all the images from the regionals and another for the code, along with its corrections and changes to date.
+
+Changes and Improvements: as you may have already noticed in the image folder—if we can call it that—there’s another one called “Regionals,” which contains the prototype of the robot we used to compete in the two regional events I mentioned in the introduction.
+
+(The read.me file explaining how that prototype worked is in the programs folder, but it’s in English.)
+
+Notable changes were made since we had quite a few issues with the board and the power supply for everything—sensors, motors, you name it. We consulted our tutor, and he gave us the green light for all these changes, as we want to do our best in this national competition.
+
+At this point, I’ll explain as briefly as possible to be as transparent as possible. In summary, changes were made, but nothing that alters our original ideas.
+
+Conclusion
+
+Weeknd isn’t just a robot designed to complete a circuit; it’s a demonstration of everything we’ve learned in this process of learning, programming, and teamwork. Our participation in this competition aims to inspire students at public schools who have the opportunity at their educational institution to get involved in robotics and develop their skills.
