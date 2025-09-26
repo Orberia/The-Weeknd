@@ -57,13 +57,6 @@ https://youtube.com/shorts/s7kXJFCqDvQ?si=E_z_9bgtrkW0EDXt
 
  Utilización de GitHub: Este repositorio esta ordenado en carpetas para hacer la calificación más fácil y rápida con una carpeta para todas la imagenes desde la regionales y otro para los códigos y sus correcciones y cambios a día de hoy. 
 
-Cambios y Mejoras: como ya debe de hacer notado en la carpeta de imagenes si lo podremos llamar así hay otra que se llama "Regionales" Donde esta el prototipo del robot con que participamos en las dos regiones que mencione en la introducción. 
-
-(El archivo read.me donde explica como funcionaba ese prototipo esta en la carpeta de programas, solo que esta en inglés) 
-
-Se hicieron cambios notables ya que se tuvo bastante problemas en cuanto a la placa y alimentación de todo llamense sensores motores, le consultamos a nuestro tutor y el nos dio luz verde a todos estos camhios ya que se quiere hacer los mejos posible en esta competencia nacional. 
-
-Explico en este punto lo mejor posible siendo breve para ser lo más transparente posible en resumen si se hicieron cambios pero nada que cambie nuestras ideas originales. 
 
 Conclusión
 
