@@ -57,7 +57,7 @@ https://youtu.be/CwRXzK3C9YQ?si=sShcY7c2oma6UHBi
 
 https://youtube.com/shorts/s7kXJFCqDvQ?si=E_z_9bgtrkW0EDXt
 
- Utilización de GitHub: Este repositorio esta ordenado en carpetas para hacer la calificación más fácil y rápida con una carpeta para todas la imagenes desde la regionales y otro para los códigos y sus correcciones y cambios a día de hoy. 
+ Utilización de GitHub: Este repositorio esta ordenado en carpetas para hacer la calificación más fácil y rápida con una carpeta para todas la imagenes y otro para los códigos y sus correcciones y cambios a día de hoy. 
 
 
 Conclusión
