@@ -30,6 +30,8 @@ Componentes y Funciones
 
 8. Cableado y conexiones: Permite la comunicación eléctrica entre todos los componentes, asegurando que los códigos lleguen correctamente desde el controlador a los actuadores.
 
+9. Modulo Mt3608: Es un elevador de voltaje porque nos permite aumentar el voltaje de la fuente de alimentación y lo usamos según se requiere en la programación. 
+
 Características Principales
 
 Detección de colores gracias a la cámara HuskyLens: Permite al robot reaccionar ante señales del circuito de acuerdo con la programación, cambiando de trayectoria o ejecutando acciones específicas.
